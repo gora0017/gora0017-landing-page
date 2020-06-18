@@ -1,0 +1,100 @@
+/* set background-color*/
+*{
+    background-color:#f7f7ff ;
+}
+/*setting fonts for the site*/
+h1,p,h5,form, .main-wrapper{
+    font-family: 'Montserrat', sans-serif;;
+}
+/*created main wrapper with logo*/
+.main-wrapper img{
+    margin: auto;
+    width: 100%;
+}
+
+/*styled the form to somewhat of the requirements.Was having troubles*/
+form{
+    border-radius: 70px;
+    box-sizing: border-box;
+    background-color: white;
+    filter: drop-shadow(10px 10px 10px #57eabe);
+    margin-bottom: 75px;
+    
+}
+.logo-img{
+    width:100px
+}
+/*changed the size of the scooter img*/
+.scoot-img{
+        width: 450px;
+        margin-bottom: 25px;
+        border-bottom: 10px;
+}
+ footer h2 {
+    max-width: 100%;
+    width: 100%;
+    background-color: #fffd8c;
+    
+}
+
+.form-foot{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fffd8c;
+    flex-direction: row;
+}
+input[type="city"]{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    }
+input[type="hours"]{
+    margin-right: 10px;
+    width: 25%;
+    margin-bottom: 20px;
+    }
+
+    input[value="CALCULATE"]{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    }
+
+
+.social-icons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    flex-basis: 100%;
+    justify-content: space-evenly;
+    background-color: #fffd8c;
+}
+/*Tablet view breakpoint*/
+@media(min-width: 560px){
+    .main-wrapper img{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .scoot-img{
+        width: 1500px;
+        height:550px;
+        width: 550px;
+    }
+
+}
+/*Desktop breakpoint */
+@media(min-width: 1120px){
+    .main-wrapper img{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .scoot-img{
+        width: 2000px;
+        height:600px;
+        width: 600px;
+    }
+    
+
+
+}
